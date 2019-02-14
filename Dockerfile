@@ -52,5 +52,5 @@ COPY . .
 # Run everything after as non-privileged user.
 USER pptruser
 
-EXPOSE 80
+EXPOSE 8080
 CMD [ "npm", "start" ]
