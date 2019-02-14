@@ -153,6 +153,6 @@ function asNumber(exp, defaultValue) {
     return exp ? parseInt(exp) : defaultValue;
 }
 
-app.listen(8081, () => {
-    console.log('We are live on ' + 8081);
+app.listen(80, () => {
+    console.log('We are live on ' + 80);
 });
